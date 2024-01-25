@@ -1,0 +1,159 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px; 
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, sans-serif;
+}
+
+p, li, td {
+    font-family: Arial, sans-serif; 
+    color: #333; 
+}
+
+hr {
+    border: 0;
+    height: 2px; 
+    background-color: #007bff; 
+}
+
+ul, ol {
+    list-style-type: disc; 
+    padding-left: 20px;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Headers */
+header h1, header h2 {
+    text-align: center;
+}
+
+/* Assignment Section */
+.assignment {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.assignment h3 {
+    color: #007bff;
+}
+
+/* Link Rollover Effect */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* transition for color change */
+}
+
+a:hover {
+    color: #d400ff;
+    text-decoration: underline; /* Change in appearance on hover */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+}
+
+
+/* Individual Assignment Page */
+.content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.content img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 5px; 
+}
+
+.learning-objectives {
+    list-style-type: none;
+    padding: 0;
+    background-color: #eef5f3; /* Light background for objectives */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Adds space between sections */
+}
+
+.learning-objectives li {
+    padding: 5px 0;
+    font-weight: bold; /* Makes objectives stand out */
+}
+
+.assessment {
+    list-style-type: none;
+    padding-left: 20px;
+    background-color: #f0f8ff; 
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.assessment li {
+    margin-bottom: 15px;
+    padding: 5px;
+    border-bottom: 1px solid #ddd; 
+}
+
+/* Feedback */
+
+.feedback {
+    display: none;
+    background-color: #eef5f3;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border-left: 5px solid #2a7f62;
+}
+
+:target {
+    display: block;
+}
+
+.feedback a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    header h1, header h2 {
+        font-size: smaller;
+    }
+}
+
